@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="RedNoise"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\..\usr\;CMake Files\..\..\..\..\..\..\..\usr\lib\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\;CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\SDL2\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/merlin/CG2023/Weekly Workbooks/01 Introduction and Orientation/extras/RedNoise"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/merlin/CG2023/Weekly\ Workbooks/01\ Introduction\ and\ Orientation/extras/RedNoise/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/merlin/CG2023/Weekly\ Workbooks/01\ Introduction\ and\ Orientation/extras/RedNoise/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/merlin/CG2023/Weekly\ Workbooks/01\ Introduction\ and\ Orientation/extras/RedNoise/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/merlin/CG2023/Weekly\ Workbooks/01\ Introduction\ and\ Orientation/extras/RedNoise/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RedNoise">
+				<Option output="/home/merlin/CG2023/Weekly Workbooks/01 Introduction and Orientation/extras/RedNoise/RedNoise" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/merlin/CG2023/Weekly Workbooks/01 Introduction and Orientation/extras/RedNoise"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/SDL2"/>
+					<Add directory="/home/merlin/CG2023/Weekly Workbooks/01 Introduction and Orientation/extras/RedNoise/libs/glm-0.9.7.2"/>
+					<Add directory="/home/merlin/CG2023/Weekly Workbooks/01 Introduction and Orientation/extras/RedNoise/libs/sdw"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/merlin/CG2023/Weekly\ Workbooks/01\ Introduction\ and\ Orientation/extras/RedNoise/Makefile&quot;  VERBOSE=1 RedNoise"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/merlin/CG2023/Weekly\ Workbooks/01\ Introduction\ and\ Orientation/extras/RedNoise/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/merlin/CG2023/Weekly\ Workbooks/01\ Introduction\ and\ Orientation/extras/RedNoise/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/merlin/CG2023/Weekly\ Workbooks/01\ Introduction\ and\ Orientation/extras/RedNoise/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="RedNoise/fast">
+				<Option output="/home/merlin/CG2023/Weekly Workbooks/01 Introduction and Orientation/extras/RedNoise/RedNoise" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/merlin/CG2023/Weekly Workbooks/01 Introduction and Orientation/extras/RedNoise"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/include/SDL2"/>
+					<Add directory="/home/merlin/CG2023/Weekly Workbooks/01 Introduction and Orientation/extras/RedNoise/libs/glm-0.9.7.2"/>
+					<Add directory="/home/merlin/CG2023/Weekly Workbooks/01 Introduction and Orientation/extras/RedNoise/libs/sdw"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/merlin/CG2023/Weekly\ Workbooks/01\ Introduction\ and\ Orientation/extras/RedNoise/Makefile&quot;  VERBOSE=1 RedNoise/fast"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/merlin/CG2023/Weekly\ Workbooks/01\ Introduction\ and\ Orientation/extras/RedNoise/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/merlin/CG2023/Weekly\ Workbooks/01\ Introduction\ and\ Orientation/extras/RedNoise/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/merlin/CG2023/Weekly\ Workbooks/01\ Introduction\ and\ Orientation/extras/RedNoise/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/merlin/CG2023/Weekly Workbooks/01 Introduction and Orientation/extras/RedNoise"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/merlin/CG2023/Weekly\ Workbooks/01\ Introduction\ and\ Orientation/extras/RedNoise/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/merlin/CG2023/Weekly\ Workbooks/01\ Introduction\ and\ Orientation/extras/RedNoise/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/merlin/CG2023/Weekly\ Workbooks/01\ Introduction\ and\ Orientation/extras/RedNoise/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/merlin/CG2023/Weekly\ Workbooks/01\ Introduction\ and\ Orientation/extras/RedNoise/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/merlin/CG2023/Weekly Workbooks/01 Introduction and Orientation/extras/RedNoise"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/gmake -f &quot;/home/merlin/CG2023/Weekly\ Workbooks/01\ Introduction\ and\ Orientation/extras/RedNoise/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/gmake -f &quot;/home/merlin/CG2023/Weekly\ Workbooks/01\ Introduction\ and\ Orientation/extras/RedNoise/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/gmake -f &quot;/home/merlin/CG2023/Weekly\ Workbooks/01\ Introduction\ and\ Orientation/extras/RedNoise/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/gmake -f &quot;/home/merlin/CG2023/Weekly\ Workbooks/01\ Introduction\ and\ Orientation/extras/RedNoise/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/merlin/CG2023/Weekly Workbooks/01 Introduction and Orientation/extras/RedNoise/libs/sdw/CanvasPoint.cpp">
+			<Option target="RedNoise"/>
+		</Unit>
+		<Unit filename="/home/merlin/CG2023/Weekly Workbooks/01 Introduction and Orientation/extras/RedNoise/libs/sdw/CanvasPoint.h">
+			<Option target="RedNoise"/>
+		</Unit>
+		<Unit filename="/home/merlin/CG2023/Weekly Workbooks/01 Introduction and Orientation/extras/RedNoise/libs/sdw/CanvasTriangle.cpp">
+			<Option target="RedNoise"/>
+		</Unit>
+		<Unit filename="/home/merlin/CG2023/Weekly Workbooks/01 Introduction and Orientation/extras/RedNoise/libs/sdw/CanvasTriangle.h">
+			<Option target="RedNoise"/>
+		</Unit>
+		<Unit filename="/home/merlin/CG2023/Weekly Workbooks/01 Introduction and Orientation/extras/RedNoise/libs/sdw/Colour.cpp">
+			<Option target="RedNoise"/>
+		</Unit>
+		<Unit filename="/home/merlin/CG2023/Weekly Workbooks/01 Introduction and Orientation/extras/RedNoise/libs/sdw/Colour.h">
+			<Option target="RedNoise"/>
+		</Unit>
+		<Unit filename="/home/merlin/CG2023/Weekly Workbooks/01 Introduction and Orientation/extras/RedNoise/libs/sdw/DrawingWindow.cpp">
+			<Option target="RedNoise"/>
+		</Unit>
+		<Unit filename="/home/merlin/CG2023/Weekly Workbooks/01 Introduction and Orientation/extras/RedNoise/libs/sdw/DrawingWindow.h">
+			<Option target="RedNoise"/>
+		</Unit>
+		<Unit filename="/home/merlin/CG2023/Weekly Workbooks/01 Introduction and Orientation/extras/RedNoise/libs/sdw/ModelTriangle.cpp">
+			<Option target="RedNoise"/>
+		</Unit>
+		<Unit filename="/home/merlin/CG2023/Weekly Workbooks/01 Introduction and Orientation/extras/RedNoise/libs/sdw/ModelTriangle.h">
+			<Option target="RedNoise"/>
+		</Unit>
+		<Unit filename="/home/merlin/CG2023/Weekly Workbooks/01 Introduction and Orientation/extras/RedNoise/libs/sdw/RayTriangleIntersection.cpp">
+			<Option target="RedNoise"/>
+		</Unit>
+		<Unit filename="/home/merlin/CG2023/Weekly Workbooks/01 Introduction and Orientation/extras/RedNoise/libs/sdw/RayTriangleIntersection.h">
+			<Option target="RedNoise"/>
+		</Unit>
+		<Unit filename="/home/merlin/CG2023/Weekly Workbooks/01 Introduction and Orientation/extras/RedNoise/libs/sdw/TextureMap.cpp">
+			<Option target="RedNoise"/>
+		</Unit>
+		<Unit filename="/home/merlin/CG2023/Weekly Workbooks/01 Introduction and Orientation/extras/RedNoise/libs/sdw/TextureMap.h">
+			<Option target="RedNoise"/>
+		</Unit>
+		<Unit filename="/home/merlin/CG2023/Weekly Workbooks/01 Introduction and Orientation/extras/RedNoise/libs/sdw/TexturePoint.cpp">
+			<Option target="RedNoise"/>
+		</Unit>
+		<Unit filename="/home/merlin/CG2023/Weekly Workbooks/01 Introduction and Orientation/extras/RedNoise/libs/sdw/TexturePoint.h">
+			<Option target="RedNoise"/>
+		</Unit>
+		<Unit filename="/home/merlin/CG2023/Weekly Workbooks/01 Introduction and Orientation/extras/RedNoise/libs/sdw/Utils.cpp">
+			<Option target="RedNoise"/>
+		</Unit>
+		<Unit filename="/home/merlin/CG2023/Weekly Workbooks/01 Introduction and Orientation/extras/RedNoise/libs/sdw/Utils.h">
+			<Option target="RedNoise"/>
+		</Unit>
+		<Unit filename="/home/merlin/CG2023/Weekly Workbooks/01 Introduction and Orientation/extras/RedNoise/src/RedNoise.cpp">
+			<Option target="RedNoise"/>
+		</Unit>
+		<Unit filename="/home/merlin/CG2023/Weekly Workbooks/01 Introduction and Orientation/extras/RedNoise/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/merlin/CG2023/Weekly Workbooks/01 Introduction and Orientation/extras/RedNoise/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/SDL2/sdl2-config-version.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\SDL2\"/>
+		</Unit>
+		<Unit filename="/home/merlin/CG2023/Weekly Workbooks/01 Introduction and Orientation/extras/RedNoise/../../../../../../../usr/lib/x86_64-linux-gnu/cmake/SDL2/sdl2-config.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\..\usr\lib\x86_64-linux-gnu\cmake\SDL2\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>

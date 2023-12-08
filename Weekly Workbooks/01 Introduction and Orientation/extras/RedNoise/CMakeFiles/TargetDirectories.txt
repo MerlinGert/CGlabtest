@@ -1,0 +1,3 @@
+/home/merlin/CG2023/Weekly Workbooks/01 Introduction and Orientation/extras/RedNoise/CMakeFiles/RedNoise.dir
+/home/merlin/CG2023/Weekly Workbooks/01 Introduction and Orientation/extras/RedNoise/CMakeFiles/edit_cache.dir
+/home/merlin/CG2023/Weekly Workbooks/01 Introduction and Orientation/extras/RedNoise/CMakeFiles/rebuild_cache.dir

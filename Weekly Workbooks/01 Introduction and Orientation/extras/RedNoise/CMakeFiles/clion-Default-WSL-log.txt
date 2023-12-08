@@ -1,0 +1,4 @@
+C:\Windows\system32\wsl.exe --distribution Ubuntu --exec /bin/bash -c "export CMAKE_COLOR_DIAGNOSTICS=ON && export CLION_IDE=TRUE && export JETBRAINS_IDE=TRUE && cd '/home/merlin/CG2023/Weekly Workbooks/01 Introduction and Orientation/extras/RedNoise' && /usr/bin/cmake -G 'CodeBlocks - Unix Makefiles' -S '/home/merlin/CG2023/Weekly Workbooks/01 Introduction and Orientation/extras/RedNoise' -B '/home/merlin/CG2023/Weekly Workbooks/01 Introduction and Orientation/extras/RedNoise'"
+-- Configuring done
+-- Generating done
+-- Build files have been written to: /home/merlin/CG2023/Weekly Workbooks/01 Introduction and Orientation/extras/RedNoise
